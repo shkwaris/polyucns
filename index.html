@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PolyU Energy Consumption Analysis</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="https://www.polyu.edu.hk/content/dam/polyu/home/logo.png" alt="PolyU Logo">
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#descriptive">Descriptive</a></li>
+                <li><a href="#trend">Trend</a></li>
+                <li><a href="#seasonal">Seasonal</a></li>
+                <li><a href="#building-comparison">Comparison</a></li>
+                <li><a href="#correlation">Correlation</a></li>
+                <li><a href="#regression">Regression</a></li>
+                <li><a href="#forecasting">Forecasting</a></li>
+                <li><a href="#carbon-footprint">Carbon</a></li>
+                <li><a href="#peak-demand">Peak Demand</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="descriptive" class="content-section">
+            <h2>Descriptive Analysis</h2>
+            <div class="content-card">
+                <img src="mean_energy_consumption.png" alt="Mean Energy Consumption">
+                <p>Summary statistics for each building's energy consumption, including mean, standard deviation, minimum, and maximum values.</p>
+            </div>
+            <div class="content-card">
+                <img src="std_energy_consumption.png" alt="Standard Deviation Energy Consumption">
+                <p>Standard deviation of energy consumption for each building.</p>
+            </div>
+        </section>
+        <section id="trend" class="content-section">
+            <h2>Trend Analysis</h2>
+            <div class="content-card">
+                <img src="trend_analysis.png" alt="Trend Analysis">
+                <p>Trends in energy consumption over time, showing variations and patterns.</p>
+            </div>
+        </section>
+        <section id="seasonal" class="content-section">
+            <h2>Seasonal Analysis</h2>
+            <div class="content-card">
+                <img src="seasonal_analysis.png" alt="Seasonal Analysis">
+                <p>Seasonal patterns in energy consumption, with noticeable peaks during summer months.</p>
+            </div>
+        </section>
+        <section id="building-comparison" class="content-section">
+            <h2>Building Comparison</h2>
+            <div class="content-card">
+                <img src="building_comparison.png" alt="Building Comparison">
+                <p>Comparison of energy consumption distributions across buildings, identifying buildings with higher variability and mean consumption.</p>
+            </div>
+        </section>
+        <section id="correlation" class="content-section">
+            <h2>Correlation Analysis</h2>
+            <div class="content-card">
+                <img src="correlation_analysis.png" alt="Correlation Analysis">
+                <p>Correlations between energy consumption across different buildings.</p>
+            </div>
+        </section>
+        <section id="regression" class="content-section">
+            <h2>Regression Analysis</h2>
+            <div class="content-card">
+                <img src="regression_analysis.png" alt="Regression Analysis">
+                <p>Regression model with an excellent fit (R² = 1.0) for predicting total energy consumption based on individual buildings' consumption.</p>
+            </div>
+        </section>
+        <section id="forecasting" class="content-section">
+            <h2>Forecasting</h2>
+            <div class="content-card">
+                <img src="forecasting_analysis.png" alt="Forecasting Analysis">
+                <p>Forecasting future energy consumption using an ARIMA model.</p>
+            </div>
+        </section>
+        <section id="carbon-footprint" class="content-section">
+            <h2>Carbon Footprint Analysis</h2>
+            <div class="content-card">
+                <img src="carbon_footprint_analysis.png" alt="Carbon Footprint Analysis">
+                <p>Historical and forecasted carbon emissions based on energy consumption.</p>
+            </div>
+        </section>
+        <section id="peak-demand" class="content-section">
+            <h2>Peak Demand Analysis</h2>
+            <div class="content-card">
+                <img src="peak_demand_analysis.png" alt="Peak Demand Analysis">
+                <p>Peak usage periods, primarily occurring during summer months, likely due to increased cooling demands.</p>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 The Hong Kong Polytechnic University. All rights reserved.</p>
+    </footer>
+</body>
+</html>
